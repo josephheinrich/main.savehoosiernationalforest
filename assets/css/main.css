@@ -1,0 +1,419 @@
+/* #background-photo {
+  background: url("../images/tree-background.webp") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "Quicksand", sans-serif;
+  background: 
+       linear-gradient(
+      rgba(44, 44, 44, 0.4),
+      rgba(44, 44, 44, 0.4)
+    ),
+     url("../images/tree-background.webp");
+} */
+
+
+
+/* .background-container {
+  padding: 1rem 1rem 3rem 1rem;
+  position: relative;
+}
+
+.background-image {
+	height: 350px;
+	width: auto;
+    position: absolute;
+}
+
+body {
+  margin: 0px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: white;
+}
+
+h3 {
+  max-width: 500px;
+  margin: 0 auto 3rem;
+  font-size: 1.2rem;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  text-align: center !important;
+  margin: 0 auto;
+}
+
+h1 {
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  font-size: 2rem;
+  margin-bottom: 5rem;
+  margin-top: 8rem;
+}
+
+
+.button-36 {
+  background-image: linear-gradient(92.88deg, #2a5e4e 30%, #237746 70%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Quicksand", "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin: 0 auto;
+  display: block;
+}
+
+
+.button-36:hover {
+  box-shadow: rgba(35, 104, 75, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+
+@media (min-width: 768px) {
+  .button-36 {
+    padding: 0 2.6rem;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+    letter-spacing: 13px;
+    margin-top: 12rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+
+  .background-image {
+    height: auto;
+    width: 100%;
+    margin-left: 0;
+}
+}
+
+@media (min-width: 1200px) {
+    #background-photo {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+}
+ */
+
+ body {
+     margin: 0px;
+ }
+
+ .container-fluid {
+     font-family: "Quicksand", "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue";
+ }
+
+ .intro {
+     position: relative;
+     overflow: hidden;
+     background: black;
+     z-index: 9;
+ }
+
+ .background-image {
+	height: 600px;
+	width: auto;
+    filter: brightness(.5);
+    z-index: 0;
+}
+
+.bottom-image {
+    background-image: url("../images/background_2.webp");
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-position: center; 
+        -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 400px;
+}
+
+.background-image-bottom {
+    height: 550px;
+	width: auto;
+    z-index: 0;
+}
+
+
+
+ .navigation {
+    position: absolute;
+    display: inline-block;
+    z-index: 100;
+ }
+
+ .intro-main {
+     position: absolute;
+     left: 0;
+     top: calc(30% - calc(2.2rem + 1.05vw));
+     width: 100%;
+     z-index: 1001;
+ }
+
+ .intro-main h1 {
+    color: white;
+    font-weight: 400;
+    text-align: center;
+    font-size: calc(1.8rem + 1.05vw);
+ }
+
+ .intro-main h3 {
+    color: white;
+    font-size: calc(1.2rem + 1.05vw);
+    font-weight: 300;
+    text-align: center;
+    margin-top: 2rem;
+ }
+
+ .intro-main h5 {
+  color: white;
+  font-size: calc(1rem + 1.05vw);
+  font-weight: 300;
+  text-align: center;
+  margin-top: 3rem;
+}
+
+ .logo-container {
+    height: 50px; 
+    display: inline-block;
+ }
+
+ .navigation-content {
+     position: relative;
+     margin: 0.5rem 0rem 0rem 0.5rem;
+ }
+
+ .page-header-container {
+    display: inline-block; 
+    letter-spacing: 2px; 
+    font-weight: 200;
+    color: white;
+    font-size: 40px;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    margin-left: 0.4rem;
+ }
+
+ .action-items {
+     margin-top: 1rem;
+ }
+
+ .action-item {
+     text-align: center;
+     
+ }
+
+ .action-item > div {
+     padding: 10px;
+     border: 1px solid rgb(165, 165, 165);
+     border-radius: 5px;
+     background: white;
+     height: 300px;
+ }
+
+ .contact-info {
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+ }
+
+ .contact-item > div {
+     border-radius: 0.2rem;
+     height: auto;
+     padding: 10px;
+     background-color: white;
+ }
+
+ /* .contact-item div h5 {
+     margin-bottom: 0.5rem;
+ }
+
+ .contact-item div p {
+     margin-bottom: 0.2rem;
+ } */
+
+ .contact-info-heading {
+     color:rgb(140, 140, 140);
+     margin-bottom: 0.2rem;
+ }
+
+ .contact-description {
+    color:rgb(140, 140, 140);
+ }
+
+ .HNF-text {
+    letter-spacing: 1px;
+    font-weight: bold;
+ }
+
+ .button-36 {
+    background-image: linear-gradient(92.88deg, #2a5e4e 30%, #237746 70%);
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    flex-shrink: 0;
+    font-family: "Quicksand", "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+      "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+      sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    height: 4rem;
+    padding: 0 1.6rem;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+    transition: all 0.5s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    margin: 0 auto;
+    display: block;
+    margin-top: 3rem;
+  }
+  
+  
+  .button-36:hover {
+    box-shadow: rgba(35, 104, 75, 0.5) 0 1px 30px;
+    transition-duration: 0.1s;
+  }
+
+  .container-fluid {
+      background: #F6F6F6;
+  }
+
+  .newsletter-info {
+    color: white;
+    text-align:center;
+    margin:0 auto;
+  }
+
+  #button-addon2 {
+    background-color: rgb(14, 79, 20);
+    border-color: rgb(14, 79, 20);
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+  }
+
+  @media (min-width: 576px) {
+    .action-item > div {
+        padding: 10px;
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 5px;
+        background: white;
+        height: 350px;
+    }
+  }
+
+  @media (min-width: 701px) {
+    .action-item > div {
+        padding: 10px;
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 5px;
+        background: white;
+        height: 425px;
+    }
+  }
+
+
+
+/* MEDIA QUERIES */
+@media (min-width: 768px) {
+    .button-36 {
+      padding: 0 2.6rem;
+    }
+  
+    h1 {
+      font-size: 3.4rem;
+      letter-spacing: 13px;
+      margin-top: 12rem;
+    }
+    h3 {
+      font-size: 2rem;
+    }
+
+    .action-item > div {
+        padding: 10px;
+        border: 1px solid rgb(165, 165, 165);
+        border-radius: 5px;
+        background: white;
+        height: 350px;
+    }
+
+    .newsletter {
+      width: 50% !important;
+    }
+    
+}
+
+@media (min-width: 992px) {
+    .background-image {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .background-image-bottom {
+        height: auto;
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .contact-item > div {
+        height: 400px;
+    }
+}
+
+
+.links > div {
+    border: 1px solid black;
+    height: 500px;
+}
+
+.event-item > div {
+    background: white;
+    padding: 10px;
+    border-radius: 0.2rem;
+}
+
+.footer {
+  background-color: #F6F6F6;
+}
+
+.delete-post {
+  border: 1px solid black;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-post:hover {
+  background-color: rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
