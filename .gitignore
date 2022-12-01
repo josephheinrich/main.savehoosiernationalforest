@@ -1,3 +1,5 @@
 config.php
 db_conn.php
 include.php
+.prettierrc
+test.html

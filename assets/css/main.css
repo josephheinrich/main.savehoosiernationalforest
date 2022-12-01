@@ -137,7 +137,7 @@ h1 {
  }
 
  .background-image {
-	height: 600px;
+	/* height: 610px; */
 	width: auto;
     filter: brightness(.5);
     z-index: 0;
@@ -172,7 +172,7 @@ h1 {
  .intro-main {
      position: absolute;
      left: 0;
-     top: calc(30% - calc(2.2rem + 1.05vw));
+     top: calc(20% - calc(2.2rem + 1.05vw));
      width: 100%;
      z-index: 1001;
  }
@@ -192,13 +192,13 @@ h1 {
     margin-top: 2rem;
  }
 
- .intro-main h5 {
+ /* .intro-main h5 {
   color: white;
   font-size: calc(1rem + 1.05vw);
   font-weight: 300;
   text-align: center;
   margin-top: 3rem;
-}
+} */
 
  .logo-container {
     height: 50px; 
@@ -322,6 +322,18 @@ h1 {
     border-bottom-right-radius: .25rem;
   }
 
+  li {
+    display: inline-block;
+    font-size: 1em;
+    list-style-type: none;
+    text-transform: uppercase;
+  }
+  
+  li span {
+    display: block;
+    font-size: 1.5rem;
+  }
+
   @media (min-width: 576px) {
     .action-item > div {
         padding: 10px;
@@ -329,6 +341,9 @@ h1 {
         border-radius: 5px;
         background: white;
         height: 350px;
+    }
+    #countdowncard {
+      width: 60% !important;
     }
   }
 
@@ -339,6 +354,9 @@ h1 {
         border-radius: 5px;
         background: white;
         height: 425px;
+    }
+    li span {
+      font-size: 3rem;
     }
   }
 
@@ -370,15 +388,23 @@ h1 {
     .newsletter {
       width: 50% !important;
     }
+
+    .intro-main {
+      position: absolute;
+      left: 0;
+      top: calc(22% - calc(2.2rem + 1.05vw));
+      width: 100%;
+      z-index: 1001;
+  }
     
 }
 
 @media (min-width: 992px) {
-    .background-image {
+    /* .background-image {
         height: auto;
         width: 100%;
         margin-left: 0;
-    }
+    } */
 
     .background-image-bottom {
         height: auto;
@@ -416,4 +442,19 @@ h1 {
 .delete-post:hover {
   background-color: rgba(0, 0, 0, 0.25);
   cursor: pointer;
+}
+
+
+
+/*Countdown timer css*/
+/* general styling */
+
+.emoji {
+  display: none;
+  padding: 1rem;
+}
+
+.emoji span {
+  font-size: 4rem;
+  padding: 0 .5rem;
 }
